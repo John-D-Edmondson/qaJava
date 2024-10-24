@@ -15,7 +15,6 @@ public class Person {
     private static int totalPeople = 0;
     private String firstname;
     private String lastname;
-
     private LocalDate dateOfBirth;
 
     public String getFirstname() {
@@ -51,11 +50,9 @@ public class Person {
     @Override
     public String toString() {
         return "Person{" +
-                "firstname='" + firstname + '\'' +
-                ", lastname='" + lastname + '\'' +
+                "firstname='" + firstname + '\n' +
+                ", lastname='" + lastname + '\n' +
                 ", dateOfBirth=" + dateOfBirth +
                 '}';
     }
 }
-
-
